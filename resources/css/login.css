@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: Josefin Sans;
+     
+} 
+ 
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    overflow: hidden;
+}
+.man{
+    margin-bottom: 25px;
+     
+    text-align: center;
+}
+span{
+    height: 90px;
+    width: 90px;
+    line-height: 90px;
+  font-size: 45px; 
+  background-color: #ecf0f3;
+  display: inline-block;
+  border-radius: 50%;
+   box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px #fff;
+   color: rgb(255, 22, 104);
+}
+strong{
+    margin-top: 15px;
+    display: inline-block;
+    font-size: 30px;
+    color: rgb(255, 22, 104);
+    text-transform: uppercase;
+}
+.radious{
+    border-radius: 18px;
+    background-color: #ecf0f3;
+    box-shadow: 14px 14px 20px #cbced1,-14px -14px 20px white;
+}
+
+.email-box{
+    border: none;
+    background-color: #ecf0f3;
+    padding: 10px 30px;
+    display: inline-block;
+    box-shadow: inset 6px 6px 6px white, inset -6px -6px 6px rgba(0, 0, 0, 0.042);
+    border-radius: 40px;
+    color: rgb(255, 22, 104);
+
+}
+::placeholder{
+    color: rgb(255, 22, 104);
+    font-weight: bold;
+    display: inline-block;
+}
+.login-box{
+    border: none;
+     background:  #ecf0f3;
+     box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.096), -7px -7px 10px white;
+     border-radius: 30px 60px;
+     font-size: 20px;
+     text-transform: uppercase;
+     color: rgb(255, 35, 87);
+}
+
+::placeholder{
+    color: black;
+}
+
+h4{
+    color: rgba(0, 70, 98, 0.515);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.login-box:hover{
+    color: rgb(251, 22, 118);
+    transition: .3s;
+}
